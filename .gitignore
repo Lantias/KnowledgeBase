@@ -1,0 +1,121 @@
+# .gitignore for Knowledge Base
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependencies (if using Node.js for site generation)
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs (if using static site generators)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+dist/
+build/
+out/
+
+# Python (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Backup files
+*.bak
+*.backup
+*_backup
+*_old
+
+# Work in progress
+WIP/
+wip/
+draft/
+drafts/
+
+# Personal notes (consider keeping these private)
+NOTES.md
+TODO.md
+personal/
+
+# Large assets that shouldn't be in git
+*.mov
+*.mp4
+*.avi
+*.wmv
+*.flv
+*.webm
+assets/videos/large/
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
