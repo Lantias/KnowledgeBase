@@ -1,4 +1,4 @@
-# The Complete Language Landscape 🌐
+# The (somewhat) Complete Language Landscape 🌐
 ## Everything an Aspiring Dev Should Know
 
 So you know how I occasionally ramble about code stuff and your eyes politely glaze over? This is my attempt to fix that... 
