@@ -53,7 +53,8 @@ Everything else is there if you want to dig deeper, but don't feel like you need
 - [TL;DR - Essential Languages](#tldr)
 - [Languages to Watch](#rising-stars)
 - [C++ Complexity Warning](#cpp-warning)
-
+---
+> **Note:** If you are *not* the intended recipient (and therfore do not posess prior education on linguistics) some following sections might contain analogies and references you are mentally undereqiped for. In such cases I recommend you stop eating glue and go back to school. 
 ---
 
 ## 🔤 The Full Roster {#languages}
