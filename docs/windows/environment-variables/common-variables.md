@@ -95,3 +95,5 @@ $env:PATH -split ';'
 - [User vs. System Scope](user-vs-system-scope.md)
 - [How to Set and Modify](how-to-set-and-modify.md)
 - [Windows Hub](../README.md)
+- [Shell Namespace Shortcuts](../shell-explorer/shell-namespace-shortcuts.md) – `shell:` URIs (similar syntax, different system)
+

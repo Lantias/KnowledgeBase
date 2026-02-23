@@ -9,6 +9,9 @@ last_updated: 2026-02-23
 
 Windows environment variables: what they are, where they live, and how to manage them.
 
+> **Note:** Environment variables (`%APPDATA%`) are often confused with Shell namespace shortcuts (`shell:AppData`). Both work in the Run dialog, but they're different systems. See [Shell Namespace Shortcuts](../shell-explorer/shell-namespace-shortcuts.md) for the distinction.
+
+
 ## Contents
 
 - [Common Variables](common-variables.md) – Frequently used built-in variables and their typical values

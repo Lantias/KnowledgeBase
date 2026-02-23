@@ -108,6 +108,30 @@ Or via CMD:
 explorer shell:Startup
 ```
 
+## Shell URIs vs Environment Variables
+
+Both `shell:` URIs and `%environment variables%` can be typed in the Run dialog or Explorer address bar to reach similar locations, but they are **different systems**:
+
+| | `shell:AppData` | `%APPDATA%` |
+|--|-----------------|-------------|
+| Type | Shell namespace shortcut | Environment variable (string substitution) |
+| Output | Opens in Explorer | Resolves to literal path (`C:\Users\You\AppData\Roaming`) |
+| Works in CMD / PowerShell | ❌ Not directly | ✅ Yes |
+| Works in Run dialog | ✅ Yes | ✅ Yes |
+| Works in Explorer address bar | ✅ Yes | ✅ Yes |
+| Usable in scripts/paths | ⚠️ Limited (Explorer-aware contexts only) | ✅ Yes |
+| Can access virtual folders | ✅ Yes (`shell:AppsFolder`, etc.) | ❌ No |
+
+### When to Use Which
+
+- **`shell:` URIs** — Quick navigation in Explorer, accessing virtual folders (like `shell:AppsFolder`) that have no filesystem path, creating shortcuts to special locations
+- **`%VARIABLES%`** — Scripting, building file paths, passing arguments to programs, anywhere you need a real path string
+
+For example, `shell:AppsFolder` has **no environment variable equivalent** — it's a virtual folder that doesn't exist on disk.
+
+See [Environment Variables](../environment-variables/README.md) for full reference on `%VAR%` syntax.
+
+
 ## Related
 
 - [Shell & Explorer](README.md)
