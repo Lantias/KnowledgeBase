@@ -1,4 +1,4 @@
-# The Complete Language Landscape 🌐 {#intro}
+# The (somewhat) Complete Language Landscape 🌐
 ## Everything an Aspiring Dev Should Know
 
 So you know how I occasionally ramble about code stuff and your eyes politely glaze over? This is my attempt to fix that... 
@@ -23,41 +23,41 @@ Everything else is there if you want to dig deeper, but don't feel like you need
 ## 📋 Table of Contents
 
 **Language Overview**
-- [The Full Roster](#languages)
-  - [Tier 1: Must-Know Languages](#tier1)
-  - [Tier 2: Important & Widely Used](#tier2)  
-  - [Tier 3: Niche but Notable](#tier3)
+- [The Full Roster](#-the-full-roster)
+  - [Tier 1: Must-Know Languages](#tier-1-must-know-languages-no-use-hiding-they-will-find-you)
+  - [Tier 2: Important & Widely Used](#tier-2-important--widely-used-aka-you-most-likely-gotta-work-with-at-least-one)
+  - [Tier 3: Niche but Notable](#tier-3-niche-but-notable-cool-party-trick-dont-expect-me-to-know-what-youre-doing)
 
 **Core Concepts**
-- [Syntax in Code](#syntax)
-- [Hello World Comparison](#hello-world)
-- [Assembly → Machine Code → Binary](#assembly)
-- [Why So Many Languages?](#why-many)
-  - [Compiled vs. Interpreted](#compilation)
-  - [Object-Oriented Programming](#oop)
-  - [Typing Systems](#typing)
-  - [Functional Programming](#functional)
-  - [Garbage Collection](#gc)
+- [Syntax in Code](#syntax-in-code-a-familiar-concept-different-rules)
+- [Hello World Comparison](#-hello-world-comparison)
+- [Assembly → Machine Code → Binary](#-assembly--machine-code--binary)
+- [Why So Many Languages?](#why-so-many-languages-what-changes)
+  - [Compiled vs. Interpreted](#compiled-vs-interpreted-exactly-why-is-my-computer-now-on-fire)
+  - [Object-Oriented Programming](#oop-object-oriented-programming-class-warfare-now-chronically-online-too)
+  - [Typing Systems](#-typing-system-becuase-11-might-not-equal-two)
+  - [Functional Programming](#functional-programming-now-functioning-as-intended)
+  - [Garbage Collection](#gc-garbage-collection-how-to-spot-a-novice)
 
 **Reference & Comparison**
-- [Mega Comparison Matrix](#comparison)
-- [Performance Tier List](#performance)
-- [Language Family Tree](#family-tree)
-- [Industry Dominance Map](#industry)
-- [Popularity & Job Market](#popularity)
+- [Mega Comparison Matrix](#-mega-comparison-matrix)
+- [Performance Tier List](#-performance-tier-list)
+- [Language Family Tree](#-the-language-family-tree)
+- [Industry Dominance Map](#-industry-dominance-map)
+- [Popularity & Job Market](#-popularity--job-market-2026)
 
 **Career & Learning**
-- [Language "Personalities"](#personality)
-- [Career Path Recommendations](#careers)
-- [Learning Path Suggestions](#learning-paths)
-- [TL;DR - Essential Languages](#tldr)
-- [Languages to Watch](#rising-stars)
-- [C++ Complexity Warning](#cpp-warning)
+- [Language "Personalities"](#-the-personality-of-each-language)
+- [Career Path Recommendations](#-career-path-recommendations)
+- [Learning Path Suggestions](#-learning-path-suggestions)
+- [TL;DR - Essential Languages](#-tldr---if-you-only-learn-a-few)
+- [Languages to Watch](#-languages-to-watch-rising-stars)
+- [C++ Complexity Warning](#%EF%B8%8F-c-complexity-warning)
 ---
 > **Note:** If you are *not* the intended recipient (and therfore do not posess prior education on linguistics) some following sections might contain analogies and references you are mentally undereqiped for. In such cases I recommend you stop eating glue and go back to school. 
 ---
 
-## 🔤 The Full Roster {#languages}
+## 🔤 The Full Roster
 
 > **About the Tiers:**
 > These aren't rankings of "best to worst"—they're more like "how likely are you to encounter this?"
@@ -68,7 +68,7 @@ Everything else is there if you want to dig deeper, but don't feel like you need
 >
 > A Tier 3 language isn't "worse" than Tier 1—Lua literally runs World of Warcraft mods and Roblox. It's just that most devs will never need it.
 
-### Tier 1: Must-Know Languages *(No use hiding, they will find you...)* {#tier1}
+### Tier 1: Must-Know Languages *(No use hiding, they will find you...)*
 | Language | Created | Creator | Primary Domain |
 |----------|---------|---------|----------------|
 | **C** | 1972 | Dennis Ritchie | Systems, embedded, OS |
@@ -84,7 +84,7 @@ Everything else is there if you want to dig deeper, but don't feel like you need
 | **Kotlin** | 2011 | JetBrains | Android, modern JVM apps |
 | **SQL** | 1974 | IBM | Databases (essential for all devs!) |
 
-### Tier 2: Important & Widely Used *(aka you most likely gotta work with at least one)* {#tier2}
+### Tier 2: Important & Widely Used *(aka you most likely gotta work with at least one)*
 | Language | Created | Creator | Primary Domain |
 |----------|---------|---------|----------------|
 | **PHP** | 1994 | Rasmus Lerdorf | Web backends (WordPress, Laravel) |
@@ -94,7 +94,7 @@ Everything else is there if you want to dig deeper, but don't feel like you need
 | **Scala** | 2004 | Martin Odersky | Big data, functional JVM |
 | **Shell/Bash** | 1989 | Brian Fox | Scripting, automation, DevOps |
 
-### Tier 3: Niche but Notable *(Cool party trick, don't expect me to know what you're doing)* {#tier3}
+### Tier 3: Niche but Notable *(Cool party trick, don't expect me to know what you're doing)*
 | Language | Created | Primary Domain |
 |----------|---------|----------------|
 | **Lua** | 1993 | Game scripting (Roblox, WoW mods) |
@@ -114,7 +114,7 @@ Everything else is there if you want to dig deeper, but don't feel like you need
 
 ---
 
-## Syntax in Code (A Familiar Concept, Different Rules) {#syntax}
+## Syntax in Code (A Familiar Concept, Different Rules)
 
 Good news: you already understand syntax better than most devs. Programming languages have grammar, and the concepts map pretty directly to what you know from linguistics—just with zero tolerance for ambiguity.
 
@@ -144,7 +144,7 @@ Good news: you already understand syntax better than most devs. Programming lang
 
 ---
 
-## 💻 Hello World Comparison {#hello-world}
+## 💻 Hello World Comparison
 
 > ***In the Hello World section, you're seeing the same semantic content ("output this text"), in this case the classic 'Hello World' expressed in wildly different syntactic structures. Notice the variation in verbosity, required punctuation, and how much "scaffolding" wraps the core instruction.***
 
@@ -299,7 +299,7 @@ _start:
 
 Lets take a look at a quick side note to see why we don't code in binary...
 
-## 🔢 Assembly → Machine Code → Binary {#assembly}  
+## 🔢 Assembly → Machine Code → Binary
 
 ***(If assembly was Voodoo, Now we enter the realm of black magics and the forbidden arts)***
 
@@ -438,9 +438,9 @@ ELF file:  Complete executable               →  ~4000 bits minimum
 This is why we don't write in binary! 😅
 
 ---
-## Why so many Languages? What changes? {#why-many}
+## Why so many Languages? What changes?
 
-### Compiled vs. Interpreted *(Exactly why is my computer now on fire?)* {#compilation}
+### Compiled vs. Interpreted *(Exactly why is my computer now on fire?)*
 
 Two ways to turn human-readable code into something a computer can run:
 
@@ -452,7 +452,7 @@ Two ways to turn human-readable code into something a computer can run:
 
 Compiled languages typically run faster. Interpreted languages are often easier to experiment with (no compile step, just run it and see what happens) and in my experience are vastly easier to read.
 
-### OOP (Object-Oriented Programming) *(Class warfare, now chronically online too!)* {#oop}
+### OOP (Object-Oriented Programming) *(Class warfare, now chronically online too!)*
 
 **A way of organizing code around "objects"—bundles of data and behaviors that belong together.**
 
@@ -469,7 +469,7 @@ Why bother? It maps well to how humans naturally categorize things, makes code r
 
 The 🔶 in the table: Some languages support OOP but don't enforce it, or implement it in unusual ways. Go has methods on types but no inheritance. Rust has traits instead of classes. They're "OOP-ish."
 
-### 🧠 Typing System *(becuase 1+1 might NOT equal Two)* {#typing}
+### 🧠 Typing System *(becuase 1+1 might NOT equal Two)*
 
 #### Data Types (The Parts of Speech of Code)
 
@@ -551,7 +551,7 @@ age = "twenty-five"   # Also fine 🐍
 
 ---
 
-### Functional Programming *(now functioning as intended!)* {#functional}
+### Functional Programming *(now functioning as intended!)*
 
 Another way to organize code—instead of objects with behaviors, you write *functions* that take inputs and produce outputs without touching anything else.
 
@@ -566,7 +566,7 @@ Functional code avoids *side effects*—a function shouldn't secretly modify som
 
 ---
 
-### GC (Garbage Collection) *(how to spot a novice)* {#gc}
+### GC (Garbage Collection) *(how to spot a novice)*
 
 When your code creates data—a string, a list, an object—it takes up space in memory (RAM). When you're done with it, that space needs to be freed up, or you eventually run out.
 
@@ -580,7 +580,7 @@ Two approaches:
 
 ---
 
-## 📊 Mega Comparison Matrix {#comparison}
+## 📊 Mega Comparison Matrix
 
 Here we take a look at how some of the most prominent Languages compare to each other in terms of the aforementioned aspects Interpretaion, Typing, 
 
@@ -633,7 +633,7 @@ The tier list reflects theoretical speed. In practice, most applications spend m
 
 **Why Python dominates AI despite being "slow":** The heavy math runs in optimized C/C++ libraries under the hood. Python is just the friendly interface. Best of both worlds.
 
-## ⚡ Performance Tier List {#performance}
+## ⚡ Performance Tier List
 
 ```
 S Tier (Blazing Fast - Native)
@@ -664,7 +664,7 @@ C Tier (Slower but Productive)
 
 ---
 
-## 🔗 The Language Family Tree {#family-tree}
+## 🔗 The Language Family Tree
 
 Take a look at the Genology of Coding! So cool!
 
@@ -758,7 +758,7 @@ Take a look at the Genology of Coding! So cool!
 
 ---
 
-## 🏭 Industry Dominance Map {#industry}
+## 🏭 Industry Dominance Map
 
 Probably not super accurate but just to give a surface level overview of what fields employ what tools:
 
@@ -779,7 +779,7 @@ Probably not super accurate but just to give a surface level overview of what fi
 
 ---
 
-## 📈 Popularity & Job Market (2026) {#popularity}
+## 📈 Popularity & Job Market (2026)
 
 ### TIOBE-style Ranking
 ```
@@ -810,7 +810,7 @@ High Demand (Now)         Growing Demand (Future-proof)
 
 ---
 
-## 🧠 The "Personality" of Each Language {#personality}
+## 🧠 The "Personality" of Each Language
 
 | Language | If It Were a Person... |
 |----------|------------------------|
@@ -835,7 +835,7 @@ High Demand (Now)         Growing Demand (Future-proof)
 
 ---
 
-## 🎯 Career Path Recommendations {#careers}
+## 🎯 Career Path Recommendations
 
 | Career Goal | Primary Language(s) | Secondary |
 |-------------|---------------------|-----------|
@@ -853,7 +853,7 @@ High Demand (Now)         Growing Demand (Future-proof)
 
 ---
 
-## 📚 Learning Path Suggestions {#learning-paths}
+## 📚 Learning Path Suggestions
 
 ### Path 1: "Understand computers deeply"
 ```
@@ -892,7 +892,7 @@ Elixir → Erlang fundamentals → Go
 
 ---
 
-## 🏆 TL;DR - If You Only Learn A Few... {#tldr}
+## 🏆 TL;DR - If You Only Learn A Few...
 
 | Priority | Language | Why |
 |----------|----------|-----|
@@ -904,7 +904,7 @@ Elixir → Erlang fundamentals → Go
 
 ---
 
-## 🔮 Languages to Watch (Rising Stars) {#rising-stars}
+## 🔮 Languages to Watch (Rising Stars)
 
 | Language | Why It's Growing |
 |----------|------------------|
@@ -916,7 +916,7 @@ Elixir → Erlang fundamentals → Go
 
 ---
 
-## ⚠️ C++ Complexity Warning {#cpp-warning}
+## ⚠️ C++ Complexity Warning
 
 > "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off." — Bjarne Stroustrup (attributed)
 
