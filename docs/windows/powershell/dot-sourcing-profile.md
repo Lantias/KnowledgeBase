@@ -1,3 +1,10 @@
+---
+title: Dot-Sourcing and The $PROFILE
+category: windows
+tags: [windows, powershell, profile, dot-sourcing]
+last_updated: 2026-02-23
+---
+
 # PowerShell: Dot-Sourcing and The `$PROFILE`
 
 When writing custom PowerShell functions (like a `Repair-WindowsApp` tool), you need a way to load them into your active session. This is done via **Dot-Sourcing** and can be made permanent using your **PowerShell `$PROFILE`**.
@@ -57,3 +64,9 @@ To fix this, tell Windows to allow locally created scripts. Open PowerShell **as
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 Press `Y` to confirm.
+
+## Related
+
+- [PowerShell Hub](README.md)
+- [Scripting Patterns](scripting-patterns.md)
+- [Windows Hub](../README.md)

@@ -9,7 +9,8 @@ Welcome to the Knowledge Base repository! This is a centralized location for doc
 │   ├── guides/             # Step-by-step guides
 │   ├── tutorials/          # Learning tutorials
 │   ├── reference/          # Reference documentation
-│   └── troubleshooting/    # Problem-solving guides
+│   ├── troubleshooting/    # Problem-solving guides
+│   └── windows/            # Windows configuration, scripting, and administration
 ├── templates/              # Document templates
 ├── assets/                 # Images, diagrams, and media
 │   ├── images/            # Screenshots and photos
@@ -29,6 +30,7 @@ Welcome to the Knowledge Base repository! This is a centralized location for doc
 - **[Tutorials](docs/tutorials/)** - Learning-oriented lessons
 - **[Reference](docs/reference/)** - Technical specifications and API docs
 - **[Troubleshooting](docs/troubleshooting/)** - Solutions to common problems
+- **[Windows](docs/windows/)** - Windows configuration, scripting, and administration
 
 ## 🤝 Contributing
 

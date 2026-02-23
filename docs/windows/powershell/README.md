@@ -14,6 +14,7 @@ PowerShell cmdlets, package management, and scripting patterns for Windows.
 - [Cmdlets Reference](cmdlets-reference.md) – Commonly used cmdlets with examples
 - [Package Management](package-management.md) – WinGet, Chocolatey, and PowerShellGet
 - [Scripting Patterns](scripting-patterns.md) – Reusable patterns for everyday scripting tasks
+- [Dot-Sourcing and The `$PROFILE`](dot-sourcing-profile.md) – Loading custom functions and persisting them via `$PROFILE`
 
 ## Related
 
